@@ -1,0 +1,8 @@
+﻿GHI CHÚ CA TRỰC - 13/10/2026 - Ca sáng (Nguyễn Văn A)
+------------------------------------------------------
+07:20  Payment API bị TIMEOUT 1 lần, đã retry thành công.
+08:05  Redis chậm, có TIMEOUT khi đọc cache. Đã báo team Infra.
+08:20  Shipping API: health check NOT TIMEOUT, theo dõi tiếp.
+09:10  Email API TIMEOUT, hàng đợi mail tăng lên 120 tin.
+10:20  Payment API TIMEOUT lần 2 trong ngày, mở ticket INC-2291.
+Bàn giao ca chiều: theo dõi Payment API và Redis.

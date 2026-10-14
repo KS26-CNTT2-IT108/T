@@ -1,0 +1,15 @@
+﻿{
+  "service": "shop-backend",
+  "version": "2.4.1",
+  "environment": "production",
+  "logPath": "..\\logs",
+  "logRotation": "daily",
+  "timeouts": {
+    "paymentApiMs": 5000,
+    "shippingApiMs": 3000,
+    "emailApiMs": 5000,
+    "databaseMs": 2000,
+    "cacheMs": 500
+  },
+  "retry": { "maxAttempts": 3, "delayMs": 1000 }
+}

@@ -1,0 +1,10 @@
+﻿2026-10-12 06:58:40 INFO  Service started version 2.4.1
+2026-10-12 07:03:11 INFO  Request OK GET /api/products 200 39ms
+2026-10-12 07:44:26 ERROR TIMEOUT khi gọi API thanh toán (timeout=5000ms)
+2026-10-12 07:44:27 INFO  NOT TIMEOUT - retry thành công PAY-88012
+2026-10-12 09:10:05 INFO  Request OK GET /api/cart 200 22ms
+2026-10-12 12:18:09 INFO  Request OK POST /api/orders 201 91ms
+2026-10-12 14:05:52 ERROR TIMEOUT khi ghi database (table=orders)
+2026-10-12 17:30:14 WARN  Memory usage 71%
+2026-10-12 21:12:37 ERROR TIMEOUT khi đọc cache (key=user:0931)
+2026-10-12 23:59:58 INFO  Daily log rotated

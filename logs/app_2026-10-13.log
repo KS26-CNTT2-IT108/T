@@ -1,0 +1,37 @@
+﻿2026-10-13 00:00:01 INFO  Scheduler job cleanup_tmp started
+2026-10-13 00:00:03 INFO  Scheduler job cleanup_tmp finished
+2026-10-13 06:58:12 INFO  Service started version 2.4.1
+2026-10-13 07:00:01 INFO  Request OK GET /api/products 200 42ms
+2026-10-13 07:00:05 INFO  Request OK POST /api/orders 201 88ms
+2026-10-13 07:12:33 WARN  Slow query 1240ms table=orders
+2026-10-13 07:15:09 ERROR TIMEOUT khi gọi API thanh toán (timeout=5000ms)
+2026-10-13 07:15:10 WARN  Retry lần 1 cho payment_id=PAY-88121
+2026-10-13 07:15:16 INFO  NOT TIMEOUT - retry thành công PAY-88121
+2026-10-13 07:20:44 INFO  Request OK GET /api/cart 200 19ms
+2026-10-13 07:31:02 ERROR TIMEOUT khi ghi database (table=inventory)
+2026-10-13 07:31:02 ERROR Rollback transaction tx=7f3a2
+2026-10-13 07:45:18 INFO  NOT TIMEOUT - kết nối Redis ổn định
+2026-10-13 08:01:05 ERROR TIMEOUT khi đọc cache (key=user:1182)
+2026-10-13 08:02:10 INFO  Request OK GET /api/products 200 37ms
+2026-10-13 08:10:27 WARN  Connection pool 18/20 đang sử dụng
+2026-10-13 08:14:51 ERROR TIMEOUT khi gọi API vận chuyển (timeout=3000ms)
+2026-10-13 08:14:52 INFO  NOT TIMEOUT - health check vận chuyển OK
+2026-10-13 08:22:03 INFO  Request OK POST /api/orders 201 95ms
+2026-10-13 08:30:40 ERROR Database connection refused, retrying
+2026-10-13 08:30:45 ERROR TIMEOUT khi kết nối database replica
+2026-10-13 08:31:10 INFO  Database connection restored
+2026-10-13 08:45:00 INFO  Request OK GET /api/products 200 40ms
+2026-10-13 08:52:19 WARN  Memory usage 78%
+2026-10-13 09:03:33 ERROR TIMEOUT khi gọi API email (timeout=5000ms)
+2026-10-13 09:03:34 INFO  NOT TIMEOUT - gửi lại email thành công
+2026-10-13 09:15:20 INFO  Request OK GET /api/cart 200 21ms
+2026-10-13 09:27:48 ERROR TIMEOUT khi đọc cache (key=session:9f2)
+2026-10-13 09:40:02 INFO  Request OK POST /api/orders 201 102ms
+2026-10-13 09:55:11 WARN  Retry lần 2 cho payment_id=PAY-88140
+2026-10-13 10:05:37 INFO  Request OK GET /api/products 200 35ms
+2026-10-13 10:18:02 ERROR TIMEOUT khi gọi API thanh toán (timeout=5000ms)
+2026-10-13 10:18:09 INFO  NOT TIMEOUT - thanh toán PAY-88177 hoàn tất
+2026-10-13 10:30:00 INFO  Scheduler job sync_inventory started
+2026-10-13 10:31:12 INFO  Scheduler job sync_inventory finished
+2026-10-13 10:47:25 WARN  Slow query 980ms table=products
+2026-10-13 11:02:44 INFO  Request OK POST /api/orders 201 90ms

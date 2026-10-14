@@ -1,0 +1,10 @@
+﻿2026-10-13 07:02:00 INFO  Worker-03 picked job JOB-5521 (export_report)
+2026-10-13 07:02:48 INFO  Worker-03 finished job JOB-5521 in 48s
+2026-10-13 07:30:15 ERROR TIMEOUT khi lấy job từ queue (queue=mail)
+2026-10-13 07:30:16 INFO  NOT TIMEOUT - queue đã kết nối lại
+2026-10-13 08:45:03 INFO  Worker-01 picked job JOB-5530 (send_invoice)
+2026-10-13 08:45:21 INFO  Worker-01 finished job JOB-5530 in 18s
+2026-10-13 09:20:44 ERROR TIMEOUT khi upload file lên S3 (file=report_0913.csv)
+2026-10-13 09:21:02 INFO  Worker-01 retry JOB-5538 thành công
+2026-10-13 10:12:30 INFO  Worker-02 picked job JOB-5544 (resize_images)
+2026-10-13 10:13:55 INFO  Worker-02 finished job JOB-5544 in 85s

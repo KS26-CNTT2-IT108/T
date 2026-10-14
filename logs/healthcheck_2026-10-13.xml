@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HealthReport date="2026-10-13" environment="production">
+  <Check time="07:00:00" target="payment-gw"   result="OK"          latencyMs="120" />
+  <Check time="07:15:00" target="payment-gw"   result="TIMEOUT"     latencyMs="5000" />
+  <Check time="07:30:00" target="payment-gw"   result="NOT TIMEOUT" latencyMs="640" />
+  <Check time="08:00:00" target="redis"        result="TIMEOUT"     latencyMs="500" />
+  <Check time="08:15:00" target="shipping-api" result="TIMEOUT"     latencyMs="3000" />
+  <Check time="08:30:00" target="shipping-api" result="NOT TIMEOUT" latencyMs="85" />
+  <Check time="09:00:00" target="database"     result="OK"          latencyMs="12" />
+</HealthReport>

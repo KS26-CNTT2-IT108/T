@@ -1,0 +1,14 @@
+﻿Timestamp,Service,Endpoint,Status,LatencyMs,Message
+2026-10-13 07:00:01,shop-backend,/api/products,OK,42,Request OK
+2026-10-13 07:15:09,payment-gw,/api/payment,TIMEOUT,5000,Payment API không phản hồi
+2026-10-13 07:15:16,payment-gw,/api/payment,OK,640,NOT TIMEOUT - retry thành công
+2026-10-13 07:31:02,database,inventory,TIMEOUT,2000,Ghi database quá hạn
+2026-10-13 08:01:05,redis,user:1182,TIMEOUT,500,Đọc cache quá hạn
+2026-10-13 08:02:10,shop-backend,/api/products,OK,37,Request OK
+2026-10-13 08:14:51,shipping-api,/api/shipping/quote,TIMEOUT,3000,Shipping API không phản hồi
+2026-10-13 08:14:52,shipping-api,/health,OK,85,NOT TIMEOUT - health check OK
+2026-10-13 08:52:19,shop-backend,-,WARN,0,Memory usage 78%
+2026-10-13 09:03:33,email-api,/v1/send,TIMEOUT,5000,Email API không phản hồi
+2026-10-13 09:15:20,shop-backend,/api/cart,OK,21,Request OK
+2026-10-13 10:18:02,payment-gw,/api/payment,TIMEOUT,5000,Payment API không phản hồi
+2026-10-13 10:18:09,payment-gw,/api/payment,OK,710,NOT TIMEOUT - thanh toán hoàn tất

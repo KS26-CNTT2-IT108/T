@@ -1,0 +1,6 @@
+﻿2026-10-10 06:58:55 INFO  Service started version 2.4.0
+2026-10-10 09:05:31 INFO  Request OK GET /api/products 200 44ms
+2026-10-10 13:47:12 ERROR TIMEOUT khi ghi database (table=payments)
+2026-10-10 13:47:13 INFO  NOT TIMEOUT - database phản hồi bình thường
+2026-10-10 13:47:20 INFO  NOT TIMEOUT - transaction tx=5b1c0 đã commit
+2026-10-10 23:59:59 INFO  Daily log rotated

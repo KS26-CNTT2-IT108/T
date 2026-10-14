@@ -1,0 +1,9 @@
+﻿[
+  { "time": "2026-10-13T07:15:09+07:00", "level": "ERROR", "service": "payment-gw", "event": "TIMEOUT", "detail": "timeout=5000ms" },
+  { "time": "2026-10-13T07:15:16+07:00", "level": "INFO",  "service": "payment-gw", "event": "NOT TIMEOUT", "detail": "retry thành công PAY-88121" },
+  { "time": "2026-10-13T08:14:51+07:00", "level": "ERROR", "service": "shipping-api", "event": "TIMEOUT", "detail": "timeout=3000ms" },
+  { "time": "2026-10-13T08:22:03+07:00", "level": "INFO",  "service": "shop-backend", "event": "ORDER_CREATED", "detail": "order_id=ORD-30412" },
+  { "time": "2026-10-13T09:03:33+07:00", "level": "ERROR", "service": "email-api", "event": "TIMEOUT", "detail": "timeout=5000ms" },
+  { "time": "2026-10-13T09:03:34+07:00", "level": "INFO",  "service": "email-api", "event": "NOT TIMEOUT", "detail": "gửi lại email thành công" },
+  { "time": "2026-10-13T10:05:37+07:00", "level": "INFO",  "service": "shop-backend", "event": "REQUEST_OK", "detail": "GET /api/products" }
+]
